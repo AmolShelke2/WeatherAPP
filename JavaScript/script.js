@@ -13,10 +13,17 @@ getBTN.addEventListener("click", async function () {
     `https://api.openweathermap.org/data/2.5/weather?appid=bab281d79e5f1e9755a68d754cc313e7&q=${input}&units=metric`
   );
 
+  // console.log(response);
+
   const weather = await response.json();
+  // console.log(weather);
+
+  if (weather.cod === "404") {
+    alert(weather.message);
+  }
 
   const cardHTML = `
-      
+
     <div class="location-details">
         <div class="city" id="city">${weather.name}</div>
         <div class="date id="date">4 feb (ThursDay), 2022</div>
