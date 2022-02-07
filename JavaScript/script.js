@@ -26,7 +26,6 @@ getBTN.addEventListener("click", async function () {
 
     <div class="location-details">
         <div class="city" id="city">${weather.name}</div>
-        <div class="date id="date">4 feb (ThursDay), 2022</div>
     </div>
 
      <div class ="weather-status">

@@ -8,7 +8,6 @@
 
 body {
   font-family: "Poppins", sans-serif;
-  height: 100vh;
   background-image: url("/assets/bg.jpg");
   overflow: hidden;
   background-repeat: no-repeat;
@@ -16,6 +15,7 @@ body {
   background-size: cover;
   backdrop-filter: blur(5px);
   font-family: "Poppins", sans-serif;
+  height: 100vh;
 }
 
 .app-main {
