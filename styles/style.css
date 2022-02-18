@@ -13,7 +13,6 @@ body {
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;
-  backdrop-filter: blur(5px);
   font-family: "Poppins", sans-serif;
   height: 100vh;
 }
@@ -106,10 +105,6 @@ body {
 @media screen and (max-width: 400px) {
   body {
     overflow-y: hidden;
-  }
-
-  .app-main {
-    width: 300px;
   }
 
   .temp {
