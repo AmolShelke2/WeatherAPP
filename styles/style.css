@@ -102,3 +102,18 @@ body {
   font-size: 12px;
   font-weight: 600;
 }
+
+@media screen and (max-width: 400px) {
+  body {
+    overflow-y: hidden;
+  }
+
+  .app-main {
+    width: 300px;
+  }
+
+  .temp {
+    font-size: 34px;
+    text-align: center;
+  }
+}
